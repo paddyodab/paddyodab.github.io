@@ -1,5 +1,6 @@
 
 <!DOCTYPE html>
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -7,6 +8,10 @@
     <meta name="robots" content="NOINDEX, NOFOLLOW">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
+    <link rel="shortcut icon" href="/resources/images/icons/nrc_n.png">
+
+    <link rel="stylesheet" type="text/css" href="/resources/css/bootstrap.min.v13964-2022082414.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/font-awesome-4.7.0/css/font-awesome.min.v13964-2022082414.css">
 
     <style>
       .ds-distribution li {
@@ -181,7 +186,7 @@ window.DS_OPT = {
           '<p>{{comment}}</p>',
           '<span class="ds-provider">',
             '<span class="ds-provider-label">Review for</span> ',
-            '<a href="https://t09c49ikl0.execute-api.us-east-1.amazonaws.com/internal/uchealth/slug/{{url}}" target="_blank">{{provider}}</a>',
+            '<a href="https://dev.transparency.nrchealth.com/internal/uchealth/slug/{{url}}" target="_blank">{{provider}}</a>',
           '</span>',
         '</div>',
       '</div>',
@@ -245,7 +250,7 @@ window.DS_OPT = {
   <div class="container">
     <div class="row justify-content-between">
       <div>
-        <a href="https://t09c49ikl0.execute-api.us-east-1.amazonaws.com/internal/uchealth"></a>
+        <a href="https://dev.transparency.nrchealth.com/internal/uchealth"><img height="60" style="height:60px;" src="https://dc6ysube6px77.cloudfront.net/nrc-logo-orange.svg"></a>
       </div>
       <div>
         <div class="ds-summary" data-ds-view="org"></div>
@@ -279,24 +284,22 @@ window.DS_OPT = {
 
 <div class="ds-comments" data-ds-pagesize="5">loading...</div>
 
-<script src="https://t09c49ikl0.execute-api.us-east-1.amazonaws.com/widget/v2/uchealth/slug/andrew-winkler/lotw.js" async></script>
+<script src="//dev.transparency.nrchealth.com/widget/v2/uchealth/slug/emily-mccann/lotw.js" async></script>
 
 </div>
 
       </div>
     </div>
 
-    <script
-  src="https://code.jquery.com/jquery-1.12.4.js"
-  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
-  crossorigin="anonymous"></script>
-
-    <!--<script src="https://dev.transparency.nrchealth.com/resources/js/docscores.v13964-2022082221.js"></script>-->
+    <script src="/resources/js/vendor/jquery-1.11.3.min.v13964-2022082414.js"></script>
+    <script src="/resources/js/bootstrap.bundle.min.v13964-2022082414.js"></script>
+    <script src="/resources/js/vendor/bootstrap3-typeahead.min.v13964-2022082414.js"></script>
+    <script src="/resources/js/docscores.v13964-2022082414.js"></script>
 
     <!--
-      dev: DocScores 1.39.6.4 (20220822.21)
+      dev: DocScores 1.39.6.4 (20220824.14)
       d-repapp01 - transparency-dev-cluster.cluster-cw84csxddzzg.us-east-1.rds.amazonaws.com:docscores
-      11:47 AM
+      10:28 AM
 
       Took
     -->
